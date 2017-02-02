@@ -9,7 +9,6 @@ namespace Shop.Model.Models
         [Key]
         public string ID { set; get; }
 
-        [Required]
         public string Content { set; get; }
     }
 }
